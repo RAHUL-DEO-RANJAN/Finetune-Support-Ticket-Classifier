@@ -1,0 +1,51 @@
+text,category
+"I was charged twice for my monthly subscription",billing
+"Please refund the payment I made yesterday",billing
+"My invoice shows the wrong amount",billing
+"My credit card was charged but the order failed",billing
+"How can I download my tax invoice",billing
+"I cancelled but I am still being billed",billing
+"My refund has not arrived in my bank account",billing
+"Why is there an extra fee on my bill",billing
+"Please update the billing address on my invoice",billing
+"My subscription renewal price is incorrect",billing
+"The payment page returns an error every time",technical
+"The mobile app crashes when I open settings",technical
+"I receive a blank screen after signing in",technical
+"Search is not working on the website",technical
+"The app is very slow after the latest update",technical
+"I cannot upload a file because the page freezes",technical
+"The website displays an unexpected error code",technical
+"Notifications stopped working after the update",technical
+"The save button does nothing when I click it",technical
+"Images are not loading in the application",technical
+"I forgot my password and cannot sign in",account_access
+"My account is locked after too many attempts",account_access
+"I am not receiving the login verification code",account_access
+"Please help me reset my account password",account_access
+"The one time password is not accepted",account_access
+"I changed my phone and lost access to two factor authentication",account_access
+"My username is not recognized on the login page",account_access
+"I need to unlock my profile",account_access
+"How do I change the email used to sign in",account_access
+"I cannot access my account after resetting my password",account_access
+"My package has not arrived yet",delivery
+"Please share the tracking number for my order",delivery
+"The courier says delivered but I received nothing",delivery
+"My shipment is delayed by three days",delivery
+"Can I change the delivery address for my parcel",delivery
+"The tracking page has not updated since Monday",delivery
+"I received only one of the two boxes",delivery
+"When will my order be shipped",delivery
+"The package arrived damaged during transport",delivery
+"I need to reschedule my delivery",delivery
+"What are your customer support working hours",other
+"Where can I read your product warranty policy",other
+"I would like to submit a general suggestion",other
+"Can you explain the features included in my plan",other
+"Please send me information about your business",other
+"Do you offer support in other languages",other
+"I want to share feedback about my experience",other
+"Where can I find the user manual",other
+"How do I contact your sales team",other
+"Can you explain your return policy",other
