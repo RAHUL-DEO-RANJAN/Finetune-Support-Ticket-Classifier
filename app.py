@@ -123,7 +123,16 @@ if result is not None:
     st.subheader("Latest evaluation")
     x, y = st.columns(2)
     x.metric("Accuracy", f'{result["accuracy"]:.1%}')
-    y.metric("Macro F1-score", f'{result["macro_f1"]:.3f}')
+
+    # Handle different result structures for ML vs Transformer
+    if "macro_f1" in result:
+        macro_f1 = result["macro_f1"]
+    elif "report" in result and "macro avg" in result["report"]:
+        macro_f1 = result["report"]["macro avg"]["f1-score"]
+    else:
+        macro_f1 = 0.0
+
+    y.metric("Macro F1-score", f'{macro_f1:.3f}')
 
     if model_type == "Traditional ML":
         z = st.columns(1)[0]
